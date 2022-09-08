@@ -1,7 +1,8 @@
 # include <stdio.h>
 # include <unistd.h>
 /**
- * main - prints Prints out last part of a quote
+ * main - prints out last part of a quote in the standard error
+ * Description:  A file 101-quote.c
  * Return : 1 is always success
  */
 int main(void)
