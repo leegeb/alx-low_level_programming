@@ -9,14 +9,17 @@
 int main(void)
 {
 	int n;
+	int D;
+	char str[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n < 6)
-		printf("Last digit of %d is n and is less than 6 and not 0,\n", n);
-	else if (n > 5)
-		printf("Last digit of %d is n and is greater than 5,\n", n);
-	else if (n == 0)
-		printf("Last digit of %d is 0 and is 0,\n", n);
+	D = n % 10;
+	if (D > 5)
+		printf("%s %d is %d and greater than 5\n", str, n, D);
+	else if (D == 0)
+		printf("%s %d is %d and is 0\n", str, n, D);
+	else if (D < 6)
+		printf("%s %d is %d and is less than 6 and not 0\n", str, n, D);
 	return (0);
 }
