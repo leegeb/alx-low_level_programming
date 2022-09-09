@@ -4,7 +4,7 @@
 /**
  *  main - Entry point
  *  Description - prints a positive or negative number
- * Return: 0 is success
+ *  Return: 0 is success
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 		printf("%i is positive\n", n);
 	else if (n < 0)
 		printf("%i is negative\n", n);
-	else
+	else if (n == 0)
 		printf("%i is zero");
 	return (0);
 }
