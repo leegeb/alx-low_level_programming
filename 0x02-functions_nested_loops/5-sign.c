@@ -18,4 +18,4 @@ int print_sign(int n)
 	}
 	else
 	{
-		-putchar('_');
+		-putchar('-');
