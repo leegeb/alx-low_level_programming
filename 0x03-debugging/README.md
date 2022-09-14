@@ -1,1 +1,1 @@
-methods of debugging
+This is debugging project
