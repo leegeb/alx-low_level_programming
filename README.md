@@ -1,1 +1,1 @@
-My first c project
+My debugging project
