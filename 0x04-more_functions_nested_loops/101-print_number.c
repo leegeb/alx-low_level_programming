@@ -1,36 +1,43 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-
-int _putchar(char c);
-
 /**
- * print_number - like a hello world
- * @n: params an integer
- * No return
- */
-
+ * print_number - prints an integer
+ * @n: random integer
+ *  Return: void
+ **/
 
 void print_number(int n)
+
 {
 
-	unsigned int n1 = 0;
+	char ld, cr;
+	int r;
+	int ct = 0;
 
 	if (n < 0)
 	{
-		n1 = -n;
-		_putchar('-');
+		_putchar ('-');
+		ld = (char)('0' - (n % 10));
+		n = n / -10;
 	}
 
 	else
 	{
-		n1 = n;
+		ld = (char)((n % 10) + '0');
+		n = n / 10;
 	}
 
-	if (n1 / n)
+	while (r > 0)
 	{
-		print_number(n1 / 10);
+		cr = (char)((r % 10) + '0');
+		_putchar(cr);
+		r = r / 10;
+		ct--;
+	}
+	while (ct != 0)
+	{
+		_putchar('0');
+		ct--;
 	}
 
-	_putchar((n1 % 10) + '0');
+	_putchar(ld);
 }
