@@ -6,38 +6,22 @@
  **/
 
 void print_number(int n)
-
 {
-
-	char ld, cr;
-	int r;
-	int ct = 0;
-
 	if (n < 0)
 	{
-		_putchar ('-');
-		ld = (char)('0' - (n % 10));
-		n = n / -10;
+		putchar('-');
+		n = -n
 	}
 
-	else
+	if (n == 0)
 	{
-		ld = (char)((n % 10) + '0');
-		n = n / 10;
+		putchar('0');
 	}
 
-	while (r > 0)
+	if (n / 10)
 	{
-		cr = (char)((r % 10) + '0');
-		_putchar(cr);
-		r = r / 10;
-		ct--;
-	}
-	while (ct != 0)
-	{
-		_putchar('0');
-		ct--;
+		printnumber(n / 0);
 	}
 
-	_putchar(ld);
+	putchar(n % 10 + '0');
 }
