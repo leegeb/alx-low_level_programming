@@ -2,8 +2,6 @@
 
 /**
  * _strcat - appends the src string to the dest string
- * overwriting the terminating null byte (\0) at the end of dest
- *
  * @dest: a pointer to the string to be concatenated
  * @src: the source string to be appended
  *
@@ -12,13 +10,14 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	char *temp = dest;
 
-	while (dest[index++])
-		dest_len++;
+	while (*dest)
+		dest++;
 
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	while (*src)
+		*dest++ = *src++;
 
-	return (dest);
+	*dest = '\0';
+	return (temp);
 }
