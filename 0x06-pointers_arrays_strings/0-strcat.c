@@ -2,6 +2,8 @@
 
 /**
  * _strcat - appends the src string to the dest string
+ * overwriting the terminating null byte (\0) at the end of dest
+ *
  * @dest: a pointer to the string to be concatenated
  * @src: the source string to be appended
  *
