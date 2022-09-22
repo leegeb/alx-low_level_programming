@@ -1,7 +1,7 @@
 #incluse "main.h"
 
 /**
- * leet - function that encodes a string
+ * leet - a leet function
  * @x: parameter
  * Return: a string
  */
