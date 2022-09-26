@@ -5,7 +5,8 @@
  * @s: string
  * @accept: prefix to be measured
  *
- * Return: number of bytes in s from accept
+ * Return: number of bytes in s which
+ * consist only of bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
