@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion - returns a value
- * @x:
- * @y:
+ * @x: base of a number
+ * @y: exponent
  *
  * Return: -1 if y < 0
  */
