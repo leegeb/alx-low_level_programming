@@ -9,11 +9,11 @@
  */
 int sqrt_check(int t, int q)
 {
-	if (q * q == t)
-		return (q);
-	if (q * q > t)
+	if (t * t == q)
+		return (t);
+	if (t * t > q)
 		return (-1);
-	return (sqrt_check(q + 1, t));
+	return (sqrt_check(t + 1, q));
 }
 
 /**
