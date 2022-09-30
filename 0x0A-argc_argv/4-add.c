@@ -26,7 +26,7 @@ int check_num(char *str)
 
 	}
 
-	return (0);
+	return (1);
 }
 
 /**
