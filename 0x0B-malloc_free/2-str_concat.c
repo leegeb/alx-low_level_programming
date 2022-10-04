@@ -21,7 +21,7 @@ int _strlen(char *s)
  * _strncat - append two strings
  * @dest: first parameter
  * @src: second paramete
- * n: third parameter
+ * @n: third parameter
  * Return: string
  */
 
