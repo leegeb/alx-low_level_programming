@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * word_count - counts the number of words in a string
@@ -19,6 +20,8 @@ int word_count(char *s)
 		}
 		else if (i == 0)
 			n++;
+	}
+	n++;
 	return (n);
 }
 /**
