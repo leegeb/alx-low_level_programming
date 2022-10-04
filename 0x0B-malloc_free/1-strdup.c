@@ -9,7 +9,7 @@
  * On success,returns a pointer to the duplicated string
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *cpy;
 	int index, dup;
