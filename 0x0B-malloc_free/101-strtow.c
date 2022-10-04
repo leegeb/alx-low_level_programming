@@ -1,12 +1,9 @@
 #include "main.h"
-
 /**
  * word_len - finds the length of a word
  * @str: string to test
- *
  * Return: integer
  */
-
 int word_len(char *str)
 {
 	int i = 0, len = 0;
@@ -18,13 +15,11 @@ int word_len(char *str)
 	}
 	return (len);
 }
-
 /**
  * word_count - counts the number of words
  * @str: input string
  * Return: no of words
  */
-
 int word_count(char *str)
 {
 	int i = 0, len = 0, count = 0;
@@ -42,14 +37,12 @@ int word_count(char *str)
 		}
 	}
 	return (count);
-
+}
 /**
- * strtow - splits a string into words
+ **strtow - splits a string into words
  * @str: string input
- *
  * Return: NULL if str == "",NULL or word0s
  */
-
 char **strtow(char *str)
 {
 	int i, words, w, letters, l;
