@@ -10,7 +10,7 @@
  * Return: a pointer or NULL if fail
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *c;
 	unsigned int size1 = 0, size2 = 0, i;
