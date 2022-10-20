@@ -1,5 +1,5 @@
-#ifndef <LISTS_H>
-#define <LISTS_H>
+#ifndef LISTS_H
+#define LISTS_H
 
 /**
  * Description: prototypes and definition
@@ -13,7 +13,7 @@
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- *      
+ *
  * Description: singly linked list node structure
  */
 
