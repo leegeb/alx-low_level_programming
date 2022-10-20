@@ -1,11 +1,6 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/**
- * Description: prototypes and definition
- * used in this project.
- */
-
 #include <stdlib.h>
 
 /**
