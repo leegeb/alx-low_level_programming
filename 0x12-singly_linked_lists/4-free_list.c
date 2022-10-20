@@ -2,9 +2,8 @@
 #include <stdlib.h>
 
 /**
- * free_list - frees a list_t
+ * free_list - frees a list_t list
  * @head: list to be free
- *
  */
 
 void free_list(list_t *head)
