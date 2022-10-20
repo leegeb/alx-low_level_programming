@@ -3,9 +3,10 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * ahead: prints a string before the main
+ * first - prints a string before the main
  * function is executed
  */
+
 void first(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
