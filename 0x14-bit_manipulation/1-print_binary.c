@@ -13,7 +13,7 @@ void print_binary(unsigned long int n)
 	unsigned int rep = 1;
 
 	if (n > 1)
-		print_binary(n << 1);
+		print_binary(n >> 1);
 	if ((n & rep) == 1)
 		_putchar('1');
 	else
