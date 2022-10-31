@@ -2,7 +2,7 @@
 
 /**
  * create_file - a function that creates a file
- * @filename: a file to be created
+ * @filename: a name of a file to be created
  * @text_content: Null terminated string to print to the file
  *
  * Return: 1 on success, -1 on failure
@@ -21,7 +21,7 @@ int create_file(const char *filename, char *text_content)
 	if (text_content == NULL)
 		text_content = "";
 	for (i = 0; text_content[i]; i++)
-
+		i++;
 	if (write(fd, text_content, i) == -1)
 	{
 		return (-1);
