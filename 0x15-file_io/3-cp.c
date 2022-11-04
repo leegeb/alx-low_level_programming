@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main- copies the content of a file
+ * main - copies the content of a file
  * @argv: argument vector
  * @argc: argument count
  *
